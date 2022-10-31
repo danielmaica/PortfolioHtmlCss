@@ -1,36 +1,79 @@
 /*header*/
 header h1 {
   text-transform: uppercase;
-  color: rgb(255, 44, 44);
+  color: #ff2c2c;
 }
 
 header h2 {
-  color: rgb(225, 134, 253);
+  color: #e186fd;
 }
 
 header img {
-  width: 240px;
-  height: 210px;
   border-radius: 50%;
-  border: 4px solid rgb(255, 44, 44);
+  border: 0.3rem solid #ff2c2c;
 }
 
-.center {
+.minha-foto {
   text-align: center;
 }
 
-/*main*/
-
-main h3 {
-  color: rgb(0, 255, 213);
+.minha-foto img {
+  width: 25rem;
+  height: 21rem;
 }
 
-.tecnologias {
+/*main*/
+main h3,
+footer h3 {
+  color: #00ffd5;
+}
+
+.tecnologias,
+.redes-sociais {
+  overflow: auto;
   display: flex;
-  gap: 5em;
+  gap: 2.5rem;
+}
+
+.tecnologia {
+  background-color: #ffffffa4;
+  color: #fff;
+  height: 4rem;
+  padding: 0rem 1rem;
+  border-radius: 5em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.tecnologia img {
+  max-width: 3rem;
+}
+
+.redes-sociais {
+  overflow: auto;
+  display: flex;
 }
 
 .rede-social {
+  background-color: #fd2222;
+  color: #fdf4f4;
+  border-radius: 5em;
+  padding: 0 1rem;
   display: flex;
   align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  gap: 0.5em;
+  height: 4rem;
+}
+
+.rede-social img {
+  max-width: 3rem;
+}
+
+.rede-social:hover {
+  background-color: #8c00ff;
+  color: #ffffff;
+  transition: 1s;
 }
