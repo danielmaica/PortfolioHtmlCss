@@ -29,3 +29,8 @@ main h3 {
   display: flex;
   gap: 5em;
 }
+
+.rede-social {
+  display: flex;
+  align-items: center;
+}
