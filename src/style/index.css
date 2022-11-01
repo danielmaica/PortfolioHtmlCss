@@ -8,30 +8,25 @@
 /*header*/
 header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   gap: 0.5rem;
-  margin: 1rem 0;
+  align-items: center;
 }
 
-header h1 {
+.info-pessoal h1 {
+  font-size: 8rem;
   text-transform: uppercase;
   color: #ff2c2c;
 }
 
-header h2 {
+.info-pessoal h2 {
+  font-size: 3rem;
   color: #e186fd;
 }
 
-header img {
+.minha-foto img {
   border-radius: 50%;
   border: 0.3rem solid #ff2c2c;
-}
-
-.minha-foto {
-  text-align: center;
-}
-
-.minha-foto img {
   width: 25rem;
   height: 21rem;
 }
