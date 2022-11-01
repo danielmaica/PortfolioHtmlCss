@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding: 1rem 5rem;
+  padding: 1rem 2rem;
   gap: 2rem;
 }
 
@@ -40,7 +40,7 @@ header img {
 .card-principal {
   background-color: #2e2e2e;
   border-radius: 1rem;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 main {
