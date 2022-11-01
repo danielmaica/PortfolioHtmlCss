@@ -60,7 +60,8 @@ footer h3 {
   color: #00ffd5;
 }
 
-main h5 {
+main h4,
+footer h4 {
   color: #fbff00;
 }
 
