@@ -55,6 +55,10 @@ footer h3 {
   color: #00ffd5;
 }
 
+main h5 {
+  color: #fbff00;
+}
+
 section {
   display: flex;
   flex-direction: column;
