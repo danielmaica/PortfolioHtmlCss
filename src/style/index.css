@@ -61,11 +61,11 @@ section {
   gap: 0.7rem;
 }
 
-.tecnologias,
-.redes-sociais {
+.tecnologias {
   overflow: auto;
   display: flex;
   gap: 2.5rem;
+  scrollbar-width: thin;
 }
 
 .tecnologia {
