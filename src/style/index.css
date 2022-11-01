@@ -36,6 +36,7 @@ header {
   background-color: #2e2e2e;
   border-radius: 1rem;
   padding: 2rem;
+  overflow: hidden;
 }
 
 main {
