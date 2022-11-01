@@ -90,6 +90,7 @@ section {
 .redes-sociais {
   overflow: auto;
   display: flex;
+  gap: 2.5rem;
 }
 
 .rede-social {
