@@ -8,9 +8,18 @@
 /*header*/
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 0.5rem;
   align-items: center;
+}
+
+@media (max-width: 400px) {
+  header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .info-pessoal h1 {
