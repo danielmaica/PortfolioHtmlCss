@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 5rem;
+  gap: 2rem;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+header h1 {
+  text-transform: uppercase;
+  color: #ff2c2c;
+}
+
+header h2 {
+  color: #e186fd;
+}
+
+/* main */
+.card-principal {
+  background-color: #2e2e2e;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+main {
+  background-color: #ff2c2c;
+  border-radius: 10rem;
+}
+
+main a {
+  text-align: center;
+  color: #fff;
+}

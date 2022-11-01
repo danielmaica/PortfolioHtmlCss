@@ -1,4 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 5rem;
+  gap: 2rem;
+}
+
 /*header*/
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
 header h1 {
   text-transform: uppercase;
   color: #ff2c2c;
@@ -23,9 +37,28 @@ header img {
 }
 
 /*main*/
+.card-principal {
+  background-color: #2e2e2e;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  gap: 2rem;
+}
+
 main h3,
 footer h3 {
   color: #00ffd5;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
 }
 
 .tecnologias,

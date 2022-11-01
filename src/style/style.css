@@ -4,6 +4,19 @@
   font-size: 62.5%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
 body {
   background-color: #000000e7;
   color: #fff;
@@ -11,11 +24,13 @@ body {
   font-size: 1.4rem;
 }
 
-.container {
-  padding: 0.5% 5%;
+/*nav*/
+nav {
+  background-color: #2e2e2e;
+  border-radius: 1rem;
+  padding: 1.5rem;
 }
 
-/*nav*/
 nav a {
   background-color: #ff2c2c;
   color: #fdf4f4;
@@ -30,7 +45,7 @@ nav a:hover {
   transition: 1s;
 }
 
-ul {
+nav ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
